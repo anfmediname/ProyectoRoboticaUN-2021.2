@@ -94,7 +94,12 @@
 
                     <div class="col-md-8 mt-lg-5 text-center">
                         <h1 class="text-uppercase" data-aos="fade-up">Diseño de una celda robótica para el ensamble de llantas en carros</h1>
-                        <p class="mb-5 desc" data-aos="fade-up" data-aos-delay="100">Descripción general de la aplicación. </p>
+                        <p class="mb-5 desc" data-aos="fade-up" data-aos-delay="100">Este proyecto consiste en el diseño y simulación de una celda robótica para el
+                        ensamble de llantas, etapa de una línea de ensamble de automoviles. La celda cuenta con una banda transportadora por la que llegan las llantas, luego
+                            son rotadas para quedar verticalmente al ser agarradas por el robot. Este robot cuenta con visión de máquina que le permite identificar correctamente
+                            los agujeros para la correcta manipulación. Luego, el robot se traslada hasta la ubiación del automóvil para colocar la rueda. Se realiza el mismo 
+                            procedimiento para la rueda trasera y luego el automóvil continua a otra etapa en la línea de ensamble. Hay un robot a cada lado del automovil. 
+                        </p>
                         
                     </div>
 
@@ -134,54 +139,25 @@
 
                         <div class="owl-carousel slide-one-item-alt-text">
                             <div>
-                                <h2 class="section-title mb-3" style="color:rgb(221, 33, 33)">Pimentón</h2>
-                                <p class="lead">Se considera su origen en la parte sur de Brasil y en Colombia</p>
-                                <p>Dada la complejidad taxonómica, es difícil establecer una clasificación que agrupe las distintas variedades; por esto su identificación se basa en características morfológicas, fisiológicas y organolépticas como tamaño
-                                    y forma de los frutos, evolución del color durante la maduración y el sabor picante, entre otras (DANE, 2015)</p>
-                                <p>La variedad de pimentón seleccionado para este proceso de automatización es el Capsicum annuum, el cual tiene dos estándares en tamaño: </p>
-                                <div class="row">
-                                    <div class="col-lg-5 mb-4" data-aos="fade-up" data-aos-delay="">
-                                        <h5 style="font-weight: bold;">
-                                            Pimentones grandes:
-                                        </h5>
-                                        <p>Rango de peso promedio [g]: 150-180</p>
-                                        <p>Dimensiones promedio [cm]: 15x5x5 </p>
-                                        <h5>
-                                    </div>
-                                    <div class="col-lg-5 ml-4" data-aos="fade-up" data-aos-delay="100">
-                                        <h5 style="font-weight: bold;">
-                                            Pimentones pequeños:
-                                        </h5>
-                                        <p>Rango de peso promedio [g]: 90 - 149</p>
-                                        <p>Dimensiones promedio [cm]: 10x3x4 </p>
-                                    </div>
-                                </div>
-
-
+                                <h2 class="section-title mb-3" style="color:rgb(221, 33, 33)">Restricciones del robot</h2>
+                                <p class="lead"> Las restricciones del robot se centran en 4 aspectos: Capacidad de carga, velocidad de operación, precisión y espacio de trabajo.
+                                    - Teniendo en cuenta el espacio de la celda y los tiempos de producción, se determinan las velocidades de articulación
+                                    deseadas. Los rangos de velocidades para cada articulación son: 1) 
+                                    - Dado que el peso promedio de una llanta es de 7kg, y el peso aproximado del gripper para esta aplicación está entre los 10 y 20kg, la carga total es de 17-27kg.
+                                    - El espacio de trabajo horizontal es de ##cm, y vertical es de ##. Se debe garantizar que los movimientos horizontales y verticales puedan ser ejecutados 
+                                    por el robot para la carga en cuestión. 
+                                    - Dada la tolerancia entre el agujero de la llanta y el eje de sujetación, la tolerancia del movimiento debe ser igual o menor que ###. 
+                                </p>
                             </div>
                             <div>
-                                <h2 class="section-title mb-3" style="color:rgb(21, 114, 12)">Aguacate</h2>
-                                <p class="lead">La palabra aguacate proviene de la lengua azteca "nahuatl", que significa testículo, haciendo un simil a su forma y posicion en el árbol.
+                                <h2 class="section-title mb-3" style="color:rgb(21, 114, 12)">Restricciones del gripper</h2>
+                                <p class="lead">Las restricciones o condiciones del gripper son 3: resistencia, peso e idoneidad.
+                                    - El gripper debe ser lo suficientemente fuerte como para mover la llanta, 7kg.
+                                    - Entre más ligero sea el gripper mejor, dado que es menos carga que mover para el robot. 
+                                    - La idoneidad se refiere a que tan bien se adapta el gripper con la forma de la llanta y los movimientos que se desean realizar. 
+                                
                                 </p>
-                                <p>El aguacate se produce en los cinco continentes, en países tropicales y subtropicales. Los mayores cultivos se encuentran en América, donde se destaca México como el primer productor mundial. </p>
-                                <p>La variedad de Aguacate seleccionado para este proceso de automatización es el Hass, el cual tiene dos estándares en tamaño: </p>
-                                <div class="row">
-                                    <div class="col-lg-5 mb-4" data-aos="fade-up" data-aos-delay="">
-                                        <h5 style="font-weight: bold;">
-                                            Aguacate grande:
-                                        </h5>
-                                        <p>Rango de peso promedio [g]: 300 - 400</p>
-                                        <p>Dimensiones promedio [cm]: 10x10x8 </p>
-                                        <h5>
-                                    </div>
-                                    <div class="col-lg-5 ml-4" data-aos="fade-up" data-aos-delay="100">
-                                        <h5 style="font-weight: bold;">
-                                            Aguacate pequeño:
-                                        </h5>
-                                        <p>Rango de peso promedio [g]: 200 - 300</p>
-                                        <p>Dimensiones promedio [cm]: 7x7x8</p>
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
 
