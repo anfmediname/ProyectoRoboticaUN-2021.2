@@ -14,5 +14,5 @@ Adicionalmente, dentro de las acciones simultáneas que debería realizar el rob
 
 [foto 4...]
 
-Para finalizar, se obtiene el cálculo del volumen total del ensamble, luego de ello se obtiene una densidad a partir de la masa de los 10kg que se definieron en los requerimientos, luego con ello, y por sus bondades mecánicas, se usa el duraluminio, ya que brinda una alta resistencia mecánica y también es de baja densidad, lo que permite que el griper sea liviano; esto se puede evidenciar en la siguiente tabla: 
+Para finalizar, se obtiene el cálculo del volumen total del ensamble, luego de ello se obtiene una densidad a partir de la masa de los 10kg que se definieron en los requerimientos, luego con ello, y por sus bondades mecánicas, se usa el duraluminio 7075, ya que brinda una alta resistencia mecánica y también es de baja densidad, lo que permite que el griper sea liviano; esto se puede evidenciar en la siguiente tabla: 
 [foto 5...]
