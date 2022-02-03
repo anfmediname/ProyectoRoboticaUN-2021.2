@@ -232,7 +232,7 @@
              </div>
             
         </section>
-        <!-- Aqui termina la sección  gestion de produccion -->
+        <!-- Aqui termina la sección  selección herramienta -->
 
         <!-- Aqui inicia la sección selección herramienta -->
         <section class="site-section" id="section-selectionTool">
@@ -325,63 +325,71 @@
                         <h5 style="color: black;"> Secuencia de trabajo.</h5>
                         <p>El proceso inicia con la puesta en marcha tanto de las bandas transportadoras como del robot manipulador IRB-ABB 4600, donde a partir de una linea de 
                             transporte de las ruedas llega hasta la banda transportadora principal, es decir la que lleva la rueda desde la fuente a un punto cercano al rango de 
-                            operación del robot. Una vez puesta la rueda en la banda transportadora principal, el robot queda en espera de que el detector de obtáculos reconozca 
+                            operación del robot. 
+                            </p>
+                        <p>
+                            Una vez puesta la rueda en la banda transportadora principal, el robot queda en espera de que el detector de obtáculos reconozca 
                             el paso de la rueda por la mitad del recorrido en la banda transportadora, genera una señal de control para que el robot inicie el acercamiento al 
                             dispositivo de rotación de la rueda, una ve el robot llega al dispositivo de rotación de la rueda, queda a la espera de que la llanta llegue a tal posición. 
+                            </p>
+                        <p>
                             El dispositivo de rotación de la rueda, en la superficie está equipado con una pequeña banda transportadora, para con ello centrarla y facilitar el 
                             centrado de la rueda con respecto al griper del robot; una vez ha llegado a la posición final, la banda transportadora principal y la del dipositivo de 
                             rotación, se detienen para evitar colisiones y apilamiento de las llantas; luego el dispositivo de rotación, cambia de una posición horizontal a un vertical. 
                             Como el robot ya está cerca, éste aproxima el griper con ello motar la llanta en las garras, luego, retira la llanta del dispositivo de rotación, el robot 
                             sigue la trayectoria definida, lineal, hasta llegar al vehículo donde se realizará el ensamble final, de forma paralela el dispositivo de rotación de las 
-                            ruedas, vuelve a su posición inicial (la horizontal), de forma secuencial se sigue el mismo proceso de forma repetida.</p>
-                        <h5 style="color: black;"> Distribución de la estación de trabajo.</h5>
+                            ruedas, vuelve a su posición inicial (la horizontal), de forma secuencial se sigue el mismo proceso de forma repetida.
+                        
+                        </p>
+                        <h5 style="color: black;"> Elementos de la ceda robótica.</h5>
+                        <p> La celda robótica está compuesta por 5 elementos: Banda transportadora, banda rotacional, manipulador, automovil y rejilla de seguridad. </p>
+                        <p> Banda transportadora: Esta banda se encarga de transportar las ruedas a ensamblar con la carrocería hacia la banda rotacional de entrega.</p>
+                        <p> Banda rotacional de entrega: Recibe las ruedas, una a una, provenientes de la banda transportadora. Consta de un sensor de línea que identifica 
+                            si hay una rueda sobre ella. En caso afirmativo, rota 90° con el objetivo de disponer la rueda verticalmente para suministrarla al manipulador. 
+                            Posee dos soportes en su extremo para sostener la rueda y evitar que caiga al suelo. Así mismo, consta de un segundo sensor de posición que 
+                            identifica si la rueda ya ha sido entregada, luego de lo cual rota en sentido contrario para retornar a su pose horizontal original.</p>
+                        <p> Manipulador: Consiste en un manipulador ABB4600 de 20kg de capacidad.</p>
+                        <p> Automóvil: Es el receptor de la rueda. ubicado en una línea sin reja de seguridad, con el fin de permitir el paso de los siguientes automóviles a ensamblar.</p>
+                        <p> Rejilla: Evitan interrupciones del ciclo indeseadas o accidentes causados por agentes externos, así como daños o afectaciones derivados de una posible falla o evento inesperado.</p>
                     </div>
 
                     <div class="row mb-3 "></div>
                     <div class="col-12 text-center " data-aos="fade ">
-                        <p> Texto de Selección de la herramienta</p>
-                        <img class="img-fluid " src="images/layout.jpg ">
+                        <h5 style="color: black;"> Layout de la celda robótica.</h5>
+                        <img class="img-fluid " src="images/layoutFinal.png ">
                     </div>
                     </div>
                 
                 <div class="col-12 text-center " data-aos="fade ">
                     <p>  </p> 
-                    <h5 style="color: black;"> Funciones.</h5>
+                    <h5 style="color: black;"> Secuencia de funcionamiento.</h5>
                     </div>
 
                     <div class="row mb-3 "></div>
                     <div class="col-12 text-center " data-aos="fade ">
-                        <p> Texto de Selección de la herramienta2</p>
-                        <img class="img-fluid " src="images/layout.jpg ">
+                        <p> Lógica de la estación</p>
+                        <img class="img-fluid " src="images/logicaBanda.jpeg ">
                     </div>
                     </div>
             
-                    <div class="col-12 text-center " data-aos="fade ">
-                    <p>  </p> 
-                    <h5 style="color: black;"> Elementos de comando</h5>
-                    </div>
-
                     <div class="row mb-3 "></div>
                     <div class="col-12 text-center " data-aos="fade ">
-                        <p> Texto</p>
-                        <img class="img-fluid " src="images/layout.jpg ">
+                        <p> Lógica mesa giratoria</p>
+                        <img class="img-fluid " src="images/logicaRotor.jpeg ">
                     </div>
                     </div>
+                    
+                    <div class="row mb-3 "></div>
+                    <div class="col-12 text-center " data-aos="fade ">
+                        <p> Lógica gripper</p>
+                        <img class="img-fluid " src="images/logicaGripper.jpeg ">
+                    </div>
+                    </div>
+                    
     
                     <div class="col-12 text-center " data-aos="fade ">
                     <p>  </p> 
-                    <h5 style="color: black;"> Elementos de señalización</h5>
-                    </div>
-
-                    <div class="row mb-3 "></div>
-                    <div class="col-12 text-center " data-aos="fade ">
-                        <p> Texto de Selección de la herramienta2</p>
-                        <img class="img-fluid " src="images/layout.jpg ">
-                    </div>
-                    </div>
-                    <div class="col-12 text-center " data-aos="fade ">
-                    <p>  </p> 
-                    <h5 style="color: black;"> Descripción de ka secuencia de funcionamiento</h5>
+                    <h5 style="color: black;"> Descripción de La secuencia de funcionamiento</h5>
                     </div>
 
                     <div class="row mb-3 "></div>
