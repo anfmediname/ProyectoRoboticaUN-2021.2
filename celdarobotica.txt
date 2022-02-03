@@ -1,0 +1,9 @@
+La celda robótica está compuesta por 5 elementos:
+1. Banda transportadora:
+Esta banda se encarga de transportar las ruedas a ensamblar con la carrocería hacia la banda rotacional de entrega.
+2. Banda rotacional de entrega:
+Recibe las ruedas, una a una, provenientes de la banda transportadora. Consta de un sensor de línea que identifica si hay una rueda sobre ella. En caso afirmativo, rota 90° con el objetivo de disponer la rueda verticalmente para suministrarla al manipulador. Posee dos soportes en su extremo para sostener la rueda y evitar que caiga al suelo. Así mismo, consta de un segundo sensor de posición que identifica si la rueda ya ha sido entregada, luego de lo cual rota en sentido contrario para retornar a su pose horizontal original.
+3. Manipulador: Consiste en un manipulador ABB4600 de 20kg de capacidad.
+4. Automóvil: Es el receptor de la rueda. ubicado en una línea sin reja de seguridad, con el fin de permitir el paso de los siguientes automóviles a ensamblar.
+
+Así mismo, se dispone de una rejilla de seguridad alrededor de la celda, con el fin de evitar interrupciones del ciclo indeseadas por agentes externos, así como daños o afectaciones derivados de una posible falla o evento inesperado.
